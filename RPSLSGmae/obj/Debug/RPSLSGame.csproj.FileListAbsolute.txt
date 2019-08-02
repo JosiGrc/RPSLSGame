@@ -1,0 +1,7 @@
+C:\Users\josim\source\repos\RPSLSGmae\RPSLSGmae\bin\Debug\RPSLSGmae.exe.config
+C:\Users\josim\source\repos\RPSLSGmae\RPSLSGmae\bin\Debug\RPSLSGmae.exe
+C:\Users\josim\source\repos\RPSLSGmae\RPSLSGmae\bin\Debug\RPSLSGmae.pdb
+C:\Users\josim\source\repos\RPSLSGmae\RPSLSGmae\obj\Debug\RPSLSGame.csproj.CoreCompileInputs.cache
+C:\Users\josim\source\repos\RPSLSGmae\RPSLSGmae\obj\Debug\RPSLSGmae.exe
+C:\Users\josim\source\repos\RPSLSGmae\RPSLSGmae\obj\Debug\RPSLSGmae.pdb
+C:\Users\josim\source\repos\RPSLSGmae\RPSLSGmae\obj\Debug\RPSLSGame.csprojAssemblyReference.cache
