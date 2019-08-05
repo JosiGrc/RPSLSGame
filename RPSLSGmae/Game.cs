@@ -13,46 +13,46 @@ namespace RPSLSGame
         Player player1;
         Player player2;
         public int winningThreshold;
-        // public DisplayRules();
+        public DaRules rules;
 
         //Constructor
         public Game()
         {
             Gesture = new List<string>() { "rock", "paper", "scissors", "lizard", "spock" };
             winningThreshold = 2;
+            rules = new DaRules();
         }
 
-        //DisplayRules()  Mustc console writeline before the game actually begins
 
         //Member Methods
         private void WinningGestures()
         {
-            if (Player gesture == "rock" && Player gesture == lizard || scissors);
+            if (player1.Gesture == player2.Gesture)
+            {
+                Console.WriteLine("It's a tie because someone decided to do some mind reading");
+            }
+           else if (player1.Gesture == "rock" && player2.Gesture == "lizard" || player2.Gesture == "scissors")
             {
                 Console.WriteLine("The rock wins this game!");
             }
-            else if(Player gesture == "scissors" && Player gesture == lizard || "paper");
+            else if (player1.Gesture == "scissors" && player2.Gesture == "lizard" || player2.Gesture ==  "paper")
             {
-                Console.WriteLine("Them scissors cut too good");
+                Console.WriteLine("Them scissors too sharp");
             }
-            else if(Player gesture == "paper" && Player gesture == "rock" || "spock");
+            else if (player1.Gesture == "paper" && player2.Gesture == "rock" || player2.Gesture == "spock")
             {
                 Console.WriteLine("The fibres of the paper are to powerful");
             }
-            else if(Player gesture == "lizard" && Player gesture == "spock" || "paper");
+            else if (player1.Gesture == "lizard" && player2.Gesture == "spock" || player2.Gesture == "paper")
             {
                 Console.WriteLine("The reptile comes out victorious this one time");
             }
-            else if(Player gesture == "spock" && Player gesture == "rock" || "scissors");
+            else if (player1.Gesture == "spock" && player2.Gesture == "rock" || player2.Gesture ==  "scissors")
             {
                 Console.WriteLine("This alien is too good for such mediocre gestures");
             }
-            else if(Player gesture == Player gesture);
-            {
-                Console.WriteLine("Whos reading minds?");
-            }
         }
-        
+
         private int GetNumberOfPlayers()
         {
             Console.WriteLine("How many players?");
@@ -61,7 +61,7 @@ namespace RPSLSGame
         }
         private void SettingUpPlayers(int numberOfPlayers)
         {
-            if 
+            if
                 (numberOfPlayers == 1)
             {
                 player1 = new Human();
@@ -72,12 +72,12 @@ namespace RPSLSGame
                 player1 = new Human();
                 player2 = new Human();
             }
-        }      
-                            
-       
+        }
+
+
         public void RunGame()
         {
-            DisplayRules();
+            rules.DisplayRules();
 
             int numberPlayers = GetNumberOfPlayers();
             SettingUpPlayers(numberPlayers);
@@ -91,21 +91,9 @@ namespace RPSLSGame
             }
             else
             {
-                Console.WriteLine(player2 + " won rthe game!");
+                Console.WriteLine(player2 + " won the game!");
             }
         }
-        //public string gesture()
-        //{
-        //    Console.WriteLine("What gesture shall you use?");
-
-        //    Gesture = Console.ReadLine();
-        //    return Gesture;
-        //}
-
-
-
-
-
 
     }
 }

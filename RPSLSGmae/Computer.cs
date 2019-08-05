@@ -9,11 +9,13 @@ namespace RPSLSGame
     public class Computer : Player
     {
         //Member Variables
+        public int GestureRoll;
+
 
         //contructor
         public Computer()
         {
-
+            public int GestureRoll = Random 
         }
 
 
